@@ -1,3 +1,7 @@
+/* -----------------------------------------
+   CHARTS - /source/js/cagov/charts.js
+----------------------------------------- */
+
 $(function () {
     // the half circle dashboard things built with the Donut functions
     $('.stats-highlight').each(initStats);
@@ -79,33 +83,16 @@ function initPlotly(d3, Plotly) {
                         color: "#333"
                     }
                 }
-                // not setting the background color atm, keep default
-                // paper_bgcolor: container.css("background-color")
             });
 
-            // This does not work atm,
-            // following this issue for updates
-            // https://github.com/plotly/plotly.js/issues/102
-
-            // container.on('mousemove', function (data) {
-            //
-            //     // make things bigger
-            //     var hovertext = container.find(".hovertext");
-            //     var trans = hovertext.attr('transform')
-            //     // hovertext.attr('transform', trans + ' scale(1.3)');
-            //
-            //     // give more padding around text by setting stroke to the
-            //     // same color as the fill
-            //     var path = hovertext.find('path');
-            //     var color = path.css('fill');
-            //     console.log(color);
-            //     path.css({'stroke-width': 7, 'stroke': color})
-            // });
+       
         });
 
+
+        
         $(window).on('resize', function () {
             var gd3 = d3.select(container.get(0)).style({height: getHeight()});
-            Plotly.Plots.on("resize", gd);
+            Plotly.Plots.resize(gd);
         });
 
     });
@@ -195,7 +182,7 @@ function getConfig(d3, container, func) {
             if(isNaN(parseFloat(d))) {
               return d;
             }
-            return + d;
+            return + d
         });
     } else {
         xValues = [];
@@ -211,7 +198,7 @@ function getConfig(d3, container, func) {
         case "bar":
             config[0].x = xValues;
             config[0].y = yValues.map(function (d) {
-                return + d;
+                return + d
             });
             break;
 
@@ -292,7 +279,7 @@ function initStats() {
 
         var donutChart = new Donut(config);
 
-        donutChart.load({ data: 0 });
+        donutChart.load({data: 0});
 
         function sizeText() {
             var width = chart.get(0).clientWidth;
@@ -332,7 +319,7 @@ function initStats() {
                 };
                 config.data = data;
                 donutChart = new Donut(config);
-                donutChart.load({ data: data });
+                donutChart.load({data: data});
                 sizeText();
             }, 10);
 
@@ -343,7 +330,7 @@ function initStats() {
             // start when it appears at the bottom
             offset: '100%',
             handler: function () {
-                donutChart.load({ data: data });
+                donutChart.load({data: data})
             }
         });
     });

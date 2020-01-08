@@ -174,7 +174,6 @@
     .owl-nav {
         $button-offsets: -2em;
         $button-offsets-sm: -0.1em;
-
         @media (max-width: $screen-xs-max) {
             .owl-prev {
                 color: white;
@@ -382,9 +381,9 @@
             zoom: 1;
 
             &:focus {
-                @include outline(2px);
+                outline: #2ea3f2 solid 2px;
 
-                + .item-overlay {
+                 + .item-overlay {
                     opacity: 1;
                 }
             }
@@ -499,6 +498,7 @@
     color: #fff;
     background: #181818;
     background-color: rgba(0, 0, 0, 0.60);
+    font-family: $headings-font-family;
     border: none;
     display: block;
     width: 25px; // Beta 5.0 addition
@@ -511,21 +511,25 @@
     /* remove outlines, for FF */
 }
 
-
-
-
 .header-slideshow-banner .banner-control:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+.header-slideshow-banner .banner-control.active {
+    display: block;
+    color:#000;
+    background-color: rgba(255, 255, 255, 0.70);
+    border:none;
+}
 .header-slideshow-banner .banner-control .pause {
     width: 25px;
     height: 26px;
     border: none;
     text-align: center;
-    padding: 0;
+    padding:0;
     color: #fff;
-    background-color: transparent;
+    background-color:transparent;
     cursor: pointer;
 }
 
@@ -536,14 +540,6 @@
     padding: 0;
     text-align: center;
     cursor: pointer;
-}
-
-
-.header-slideshow-banner .banner-control.active {
-    display: block;
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.70);
-    border: none;
 }
 
 .header-slideshow-banner .banner-play-pause {
@@ -557,11 +553,11 @@
 
 .slide-text {
     position: absolute;
-    top: auto; // Beta 5.0 addition
+    top:auto;	// Beta 5.0 addition	
     padding: 5px 15px 25px 15px;
-    bottom: 0px; // Beta 5.0 addition
-    width: 100%; // Beta 5.0 addition
-    margin: 0 auto; // Beta 5.0 addition
+	bottom: 0px;	// Beta 5.0 addition	
+    width: 100%;	// Beta 5.0 addition	
+	margin: 0 auto;	// Beta 5.0 addition
     color: #FFF;
     font-family: $font-family-sans-serif;
     font-size: 1.2em; // Beta 5.0 addition
@@ -575,6 +571,7 @@
 
 .slide-text .title {
     font-size: 1.8em; // Beta 5.0 addition
+    font-family: $headings-font-family;
 }
 
 /* Media Carousel */
@@ -621,11 +618,9 @@
     @include outline(2px);
 }
 
-
 .owl-carousel .owl-nav button.owl-prev:focus {
     margin-left: 3em;
 }
-
 
 .owl-carousel .owl-nav button.owl-next:focus {
     margin-right: 3em;
@@ -646,57 +641,68 @@
 .owl-carousel.carousel-media .owl-nav button.owl-next:focus, .owl-carousel.carousel-link .owl-nav button.owl-next:focus, .owl-carousel.carousel-slider .owl-nav button.owl-next:focus {
     margin-right: 0;
 }
-    // Video
-    .owl-video-wrapper .item-overlay {
-        display: none;
+
+.owl-carousel.carousel-link .owl-item .item a {
+    display: block;
+    &:focus {
+        outline-offset: -2px;
     }
-    /* HEADER SLIDESHOW */
-    .header-slideshow-banner {
-        position: relative;
-        height: 500px; // Beta 5.0 addition
-        #primary-carousel {
-            //@include container();
-        }
-        /* Adjusting the height of the banner controls */
-        .banner-pager, .banner-play-pause {
-            top: 350px;
-            z-index: 1; //  _cs-shame.scss addition
-        }
-        // Overrides AEM's main.css
-        .carousel {
-            margin-top: 0;
-            margin-bottom: 0;
-        }
+}
+// Video
+.owl-video-wrapper .item-overlay {
+    display: none;
+}
+
+
+/* HEADER SLIDESHOW */
+
+.header-slideshow-banner {
+    position: relative;
+
+    #primary-carousel {
+        //@include container();
     }
-    /* CA GOV Template hides the carousel by default. 
+    /* Adjusting the height of the banner controls */
+    .banner-pager, .banner-play-pause {
+        z-index: 1;
+    }
+    // Overrides AEM's main.css
+    .carousel {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+/* CA GOV Template hides the carousel by default. 
    The following lines are to unhide it and make it look pretty */
-    @media (max-width: $screen-xs-max) {
-        .header-slideshow-banner {
-            display: block;
-            height: 160px;
+@media (max-width: $screen-xs-max) {
+    .header-slideshow-banner {
+        display: block;
 
-            #primary-carousel {
-                margin: 0;
-                padding: 0;
+        #primary-carousel {
+            margin: 0;
+            padding: 0;
 
-                .slide-text {
-                    bottom: -($line-height-computed / 2);
-                    right: 0;
-                    font-size: 14px;
-                    width: 100%;
+            .slide-text {
+                bottom: -($line-height-computed / 2);
+                right: 0;
+                font-size: 14px;
+                width: 100%;
 
-                    .title {
-                        font-size: 19px;
-                    }
+                .title {
+                    font-size: 19px;
                 }
             }
         }
     }
-    /* Move the slide text below the image for small mobile devices */
-    @media (max-width: $screen-xs-max) {
-        .header-slideshow-banner {
-            .banner-pager, .banner-play-pause {
-                top: 15px;
-            }
+}
+
+/* Move the slide text below the image for small mobile devices */
+@media (max-width: $screen-xs-max) {
+    .header-slideshow-banner {
+        .banner-pager, .banner-play-pause {
+            top: 15px;
         }
     }
+}

@@ -16,9 +16,9 @@ $(document).ready(function () {
         }, 2000);
 
         // Stop the animation if the user scrolls
-        $(document).one("scroll mousedown DOMMouseScroll mousewheel keyup touchstart", function(e){
-            if ( e.which > 0 || e.type === "mousedown" || e.type === "mousewheel"  || e.type === 'touchstart'){
-                 $viewport.stop();
+        $(document).one("scroll mousedown DOMMouseScroll mousewheel keyup touchstart", function (e) {
+            if (e.which > 0 || e.type === "mousedown" || e.type === "mousewheel" || e.type === 'touchstart') {
+                $viewport.stop();
             }
         });
     });
@@ -87,19 +87,19 @@ function initLoad() {
     makeBlur(moreContents);
     function loadMore(url) {
         $(moreContents).load(url, function (response, status, xhr) {
-          var linkHeader = xhr.getResponseHeader("Link");
-          if(isTest) {
-            return;
-          }
-          if (status === "error" || linkHeader === null) {
-              $moreBtn.animate({
-                  'opacity': 0,
-                  'height': 0
-              }, 300, 'linear');
-          } else {
-              htmlURL = linkHeader.match(/<(.*?)>/)[1];
-          }
-      });
+            var linkHeader = xhr.getResponseHeader("Link");
+            if (isTest) {
+                return;
+            }
+            if (status === "error" || linkHeader === null) {
+                $moreBtn.animate({
+                    'opacity': 0,
+                    'height': 0
+                }, 300, 'linear');
+            } else {
+                htmlURL = linkHeader.match(/<(.*?)>/)[1];
+            }
+        });
     }
 
 
