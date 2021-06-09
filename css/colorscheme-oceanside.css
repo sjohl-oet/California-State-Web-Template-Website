@@ -672,7 +672,6 @@ figure {
 
 .section-overstated a:not(.btn), .card-overstated a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -751,7 +750,6 @@ figure {
 
 .section-standout a:not(.btn), .card-standout a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -838,7 +836,6 @@ figure {
 
 .section-impact a:not(.btn), .card-impact a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -957,7 +954,6 @@ figure {
 
 .section-primary a:not(.btn), .card-primary a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1036,7 +1032,6 @@ figure {
 
 .section-inverted a:not(.btn), .card-inverted a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1115,7 +1110,6 @@ figure {
 
 .section-danger a:not(.btn), .card-danger a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1137,7 +1131,6 @@ figure {
 
 .bg-highlight a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1163,7 +1156,6 @@ figure {
 
 .bg-primary a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1189,7 +1181,6 @@ figure {
 
 .bg-standout a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1372,7 +1363,6 @@ a.text-white:not(.btn):hover {
 
 .testimonial-overstated a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1403,7 +1393,6 @@ a.text-white:not(.btn):hover {
 
 .testimonial-standout a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1434,7 +1423,6 @@ a.text-white:not(.btn):hover {
 
 .testimonial-primary a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1465,7 +1453,6 @@ a.text-white:not(.btn):hover {
 
 .testimonial-highlight a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1496,7 +1483,6 @@ a.text-white:not(.btn):hover {
 
 .testimonial-inverted a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1527,7 +1513,6 @@ a.text-white:not(.btn):hover {
 
 .testimonial-danger a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1563,7 +1548,6 @@ a.text-white:not(.btn):hover {
 
 .card-primary a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1601,7 +1585,6 @@ a.text-white:not(.btn):hover {
 
 .card-inverted a:not(.btn), .card-inverse a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1639,7 +1622,6 @@ a.text-white:not(.btn):hover {
 
 .card-success a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1677,7 +1659,6 @@ a.text-white:not(.btn):hover {
 
 .card-info a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1715,7 +1696,6 @@ a.text-white:not(.btn):hover {
 
 .card-warning a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1753,7 +1733,6 @@ a.text-white:not(.btn):hover {
 
 .card-danger a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -1962,7 +1941,6 @@ a.text-white:not(.btn):hover {
 
 .panel-overstated .panel-body a:not(.btn), .panel-overstated .card-body a:not(.btn), .card-overstated .panel-body a:not(.btn), .card-overstated .card-body a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -2154,7 +2132,6 @@ a.text-white:not(.btn):hover {
 
 .panel-standout .panel-body a:not(.btn), .panel-standout .card-body a:not(.btn), .card-standout .panel-body a:not(.btn), .card-standout .card-body a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
@@ -2896,7 +2873,6 @@ code {
 
 .main-content a:not(.btn) {
   text-decoration: underline;
-  text-decoration-style: dotted;
   text-decoration-thickness: from-font;
 }
 
