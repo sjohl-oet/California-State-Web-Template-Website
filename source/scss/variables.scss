@@ -7,11 +7,11 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-$brand-primary: #046B99;
+$brand-primary: #064E66;
 $brand-highlight: #FDB81E;
 $brand-success: #32852E;
 // @brand-info:         #02BFE7;
-$brand-info: #1C7DB5;
+$brand-info: #064E66;
 $brand-warning: #C2570F;
 $brand-danger: #D24532;
 
@@ -52,7 +52,7 @@ $bootstrap-sass-asset-helper: false !default;
 //## Gray and brand colors for use across Bootstrap.
 
 $gray-base: #000 !default;
-$gray-text: #111111;
+$gray-text: #000000;
 $gray-darker: lighten($gray-base, 13.5%) !default; // #222
 $gray-dark: lighten($gray-base, 20%) !default; // #333
 $gray: lighten($gray-base, 33.5%) !default; // #555
@@ -92,7 +92,7 @@ $spacer-y: $spacer;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif: "Source Sans Pro", sans-serif; // CAgov Font
+$font-family-sans-serif: "Public Sans", sans-serif; // CAgov Font
 $font-family-serif: "Merriweather", serif;
 // Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace !default;
@@ -116,8 +116,8 @@ $line-height-base: 1.5 !global; // 20/14
 $line-height-computed: floor((16px * $line-height-base)) !default; // ~20px
 
 // By default, this inherits from the `<body>`.
-$headings-font-family: "Asap Condensed", sans-serif;
-$headings-font-weight: 400 !default;
+$headings-font-family: "Public Sans", sans-serif;
+$headings-font-weight: 700 !default;
 $headings-line-height: $line-height-base;
 $headings-color: inherit !default;
 
@@ -406,7 +406,7 @@ $breakpoint-xm: 540px;
 $breakpoint-sm: 720px;
 $breakpoint-md: 960px;
 $breakpoint-lg: 1140px;
-$breakpoint-xl: 1280px;
+$breakpoint-xl: 1176px;
 
 
 

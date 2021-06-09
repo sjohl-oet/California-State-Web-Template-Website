@@ -9,13 +9,13 @@ $theme-directory: "#{$template-path}/oceanside";      // Folder where assets for
 
 // Primary Theme colors
 $color-p1:              #FDB81E;     // Gold
-$color-p2:              #046B99;     // Medium Blue
-$color-p3:              #323A45;     // Dark Blue
+$color-p2:              #064E66;     // Medium Blue
+$color-p3:              #2F4C2C;     // Dark Blue
 
 // Secondary Theme colors
-$color-s1:              #E1F2F7;            // Lightest Blue
-$color-s2:              #9FDBF1;            // Lighter Blue
-$color-s3:              #50aee4;        	// Light Blue $brand-info
+$color-s1:              #eeefe8;            // Lightest Blue
+$color-s2:              #e7c18a;            // Lighter Blue
+$color-s3:              #CF5D28;        	// Light Blue $brand-info
 
 // Accent Colors
 $color-a1: #1B79C0; // Dark Blue
@@ -83,7 +83,7 @@ $figure-border:                 $color-s2;      // Border around media captions
 $figure-bg:                     $color-s1;      // Background behind figure and caption
 
 // MEGAMENU
-$sub-nav-bg:                    #F5F9FB;
+$sub-nav-bg:                    lighten($color-s1, 5%);;
 $sub-nav-link-border:           $gray-lighter;
 $sub-nav-media-bg:              transparent;
 
@@ -93,6 +93,7 @@ $text-field-color: rgba(255, 255, 255, 0.8); // 80% white
 
 // UTILITY
 $utility-link-hover-color: lighten($color-p1, 35%);
+
 
 
 

@@ -1,17 +1,17 @@
 /* -----------------------------------------
-   UTILITY HEADER
+   UTILITY HEADER CUSTOM
    /source/scss/colorscheme/utility.scss
 ----------------------------------------- */
 
 .utility-header {
-    background: $color-p2;
-    color: contrast($color-p2);
+    background: #f9f9fa;
+    color: #000000;
 
     a {
-        color: contrast($color-p2);
+        color: #000000;
 
         &:hover, &:focus, &.hovered {
-            color: $utility-link-hover-color;
+            color:  #000000;
         }
     }
 

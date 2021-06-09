@@ -3,7 +3,23 @@
    /source/scss/colorscheme/global.scss
 ----------------------------------------- */
 
+/* Colorscheme root */
+:root {
+    --primary-color:#064E66;
+    --standout-color:#2F4C2C;
+    --secondary-color:#CF5D28;
+    --highlight-color:#FDB81E;
+ }
 
+ /* Changing site's global max width */
+ @media (min-width: 1280px) {
+    .main-navigation, .mobile-controls, .container, .main-content > .section,
+    .two-column .main-content > .section, .branding {
+      max-width: 1176px;
+    }
+  }
+  
+ 
 
 /* ----- THEME COLORS -----  */
 .color-highlight, .color-p1 {
@@ -242,3 +258,10 @@
     background-origin: padding-box;
     text-decoration: none !important;
 }
+
+
+/* Fonts orverrides */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap');
+
+
+
