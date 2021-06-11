@@ -1,5 +1,5 @@
 /**
- * CA State Template v5.5 -  @version v5.5.22 -  6/9/2021 
+ * CA State Template v5.5 -  @version v5.5.22 -  6/11/2021 
   STYLES COMPILED FROM SOURCE (SCSS) DO NOT MODIFY */
 /* -----------------------------------------
    OCEANSIDE
@@ -2724,7 +2724,7 @@ input[type="radio"]:checked + * i {
 ----------------------------------------- */
 body {
   font-family: "Public Sans", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.125rem;
   line-height: 1.5;
   color: #000000;
 }
@@ -2766,48 +2766,48 @@ h1 span[class^="ca-gov-icon-"]:first-child, .h1 span[class^="ca-gov-icon-"]:firs
 }
 
 h1, .h1 {
-  font-size: 38.4px;
-  font-size: 2.4rem;
+  font-size: 40px;
+  font-size: 2.5rem;
   margin-top: 3rem;
   margin-bottom: 1.6rem;
   font-family: "Public Sans", sans-serif;
 }
 
 h2, .h2 {
-  font-size: 31.04px;
-  font-size: 1.94rem;
-  margin-top: 2.7rem;
+  font-size: 32px;
+  font-size: 2rem;
+  margin-top: 2.75rem;
   margin-bottom: 1.4rem;
   font-family: "Public Sans", sans-serif;
 }
 
 h3, .h3 {
-  font-size: 24.64px;
-  font-size: 1.54rem;
+  font-size: 28px;
+  font-size: 1.75rem;
   margin-top: 2.4rem;
   margin-bottom: 1.2rem;
   font-family: "Public Sans", sans-serif;
 }
 
 h4, .h4 {
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-size: 24px;
+  font-size: 1.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-family: "Public Sans", sans-serif;
 }
 
 h5, .h5 {
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 20px;
+  font-size: 1.25rem;
   margin-top: 1.7rem;
   margin-bottom: .8rem;
   font-family: "Public Sans", sans-serif;
 }
 
 h6, .h6 {
-  font-size: 12.8px;
-  font-size: 0.8rem;
+  font-size: 16px;
+  font-size: 1rem;
   margin-top: 1.4rem;
   margin-bottom: .6rem;
   font-family: "Public Sans", sans-serif;
@@ -2823,12 +2823,12 @@ h6, .h6 {
     font-size: 2rem;
   }
   h3, .h3 {
-    font-size: 25.6px;
-    font-size: 1.6rem;
+    font-size: 28px;
+    font-size: 1.75rem;
   }
   h4, .h4 {
-    font-size: 20.8px;
-    font-size: 1.3rem;
+    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 
