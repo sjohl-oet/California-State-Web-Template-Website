@@ -1,5 +1,5 @@
 /**
- * CA State Template v5.5 -  @version v5.5.22 -  6/11/2021 
+ * CA State Template v5.5 -  @version v5.5.22 -  6/15/2021 
   STYLES COMPILED FROM SOURCE (SCSS) DO NOT MODIFY */
 /* -----------------------------------------
    OCEANSIDE
@@ -383,7 +383,7 @@ h1 span[class^="ca-gov-icon-"]:first-child {
 }
 
 .first-level-link:hover, .first-level-link:focus, .first-level-btn:hover, .first-level-btn:focus {
-  color: #02171e;
+  color: #000406;
 }
 
 @media (max-width: 767px) {
@@ -1929,7 +1929,7 @@ a.text-white:not(.btn):hover {
 }
 
 .panel-overstated .panel-body a:not(.btn):hover, .panel-overstated .panel-body a:not(.btn):focus, .panel-overstated .card-body a:not(.btn):hover, .panel-overstated .card-body a:not(.btn):focus, .card-overstated .panel-body a:not(.btn):hover, .card-overstated .panel-body a:not(.btn):focus, .card-overstated .card-body a:not(.btn):hover, .card-overstated .card-body a:not(.btn):focus {
-  color: #02171e;
+  color: #000406;
   text-decoration: underline;
 }
 
@@ -2120,7 +2120,7 @@ a.text-white:not(.btn):hover {
 }
 
 .panel-standout .panel-body a:not(.btn):hover, .panel-standout .panel-body a:not(.btn):focus, .panel-standout .card-body a:not(.btn):hover, .panel-standout .card-body a:not(.btn):focus, .card-standout .panel-body a:not(.btn):hover, .card-standout .panel-body a:not(.btn):focus, .card-standout .card-body a:not(.btn):hover, .card-standout .card-body a:not(.btn):focus {
-  color: #02171e;
+  color: #000406;
   text-decoration: underline;
 }
 
@@ -2343,7 +2343,7 @@ a.text-white:not(.btn):hover {
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary .show > .dropdown-toggle, .open > .dropdown-toggle .btn-outline-primary {
   color: #fff;
   background-color: #064E66;
-  border-color: #043444;
+  border-color: #000406;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .open > .dropdown-toggle .btn-outline-primary {
@@ -2394,8 +2394,8 @@ a.text-white:not(.btn):hover {
 
 .btn-standout:hover, .btn-standout:focus, .btn-standout:not(:disabled):not(.disabled):active, .btn-standout:not(:disabled):not(.disabled).active, .btn-standout .show > .dropdown-toggle, .open > .dropdown-toggle .btn-standout {
   color: #fff;
-  background-color: #21351f;
-  border-color: #21351f;
+  background-color: #070b07;
+  border-color: #070b07;
 }
 
 .btn-standout:not(:disabled):not(.disabled):active, .btn-standout:not(:disabled):not(.disabled).active, .open > .dropdown-toggle .btn-standout {
@@ -2429,7 +2429,7 @@ a.text-white:not(.btn):hover {
 .btn-outline-standout:hover, .btn-outline-standout:focus, .btn-outline-standout:not(:disabled):not(.disabled):active, .btn-outline-standout:not(:disabled):not(.disabled).active, .btn-outline-standout .show > .dropdown-toggle, .open > .dropdown-toggle .btn-outline-standout {
   color: #fff;
   background-color: #2F4C2C;
-  border-color: #21351f;
+  border-color: #070b07;
 }
 
 .btn-outline-standout:not(:disabled):not(.disabled):active, .btn-outline-standout:not(:disabled):not(.disabled).active, .open > .dropdown-toggle .btn-outline-standout {
@@ -2509,7 +2509,7 @@ a.text-white:not(.btn):hover {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary .show > .dropdown-toggle, .open > .dropdown-toggle .btn-secondary {
-  color: #02171e;
+  color: #000406;
   background-color: #fff;
   border-color: #000;
 }
@@ -2742,7 +2742,7 @@ a {
 }
 
 a:hover {
-  color: #02171e;
+  color: #000406;
 }
 
 .featured-narrative {

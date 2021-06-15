@@ -18,7 +18,7 @@
 
 // better-button = color; background; border, hover-color; hover-background; hover-border
 .btn-outline-primary {
-    @include better-button($color-p2, $white, $color-p2, $white, $color-p2, darken($color-p2, 7%)); // beta 6.0 addition
+    @include better-button($color-p2, $white, $color-p2, $white, $color-p2, darken($color-p2, 20%)); // beta 6.0 addition
 }
 
 
@@ -28,7 +28,7 @@
 
 // beta 5.0 addition
 .btn-standout {
-    @include better-button($white, $color-p3, $color-p3, $white, darken($color-p3, 7%), darken($color-p3, 7%));
+    @include better-button($white, $color-p3, $color-p3, $white, darken($color-p3, 20%), darken($color-p3, 20%));
 
     &:disabled {
         color: $white !important;
@@ -41,7 +41,7 @@
 
 // better-button = color; background; border, hover-color; hover-background; hover-border
 .btn-outline-standout {
-    @include better-button($color-p3, $white, $color-p3, $white, $color-p3, darken($color-p3, 7%)); // beta 6.0 addition
+    @include better-button($color-p3, $white, $color-p3, $white, $color-p3, darken($color-p3, 20%)); // beta 6.0 addition
 }
 
 // beta 5.0 addition
