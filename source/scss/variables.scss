@@ -117,7 +117,7 @@ $line-height-computed: floor((16px * $line-height-base)) !default; // ~20px
 
 // By default, this inherits from the `<body>`.
 $headings-font-family: "Public Sans", sans-serif;
-$headings-font-weight: 700 !default;
+$headings-font-weight: 700 !global;
 $headings-line-height: $line-height-base;
 $headings-color: inherit !default;
 
