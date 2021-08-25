@@ -1,5 +1,5 @@
 /**
- * CA State Template v5.5 -  @version v5.5.22 -  6/29/2021 
+ * CA State Template v5.5 -  @version v5.5.22 -  8/25/2021 
   STYLES COMPILED FROM SOURCE (SCSS) DO NOT MODIFY */
 /* -----------------------------------------
    OCEANSIDE
@@ -383,7 +383,7 @@ h1 span[class^="ca-gov-icon-"]:first-child {
 }
 
 .first-level-link:hover, .first-level-link:focus, .first-level-btn:hover, .first-level-btn:focus {
-  color: #000406;
+  color: #043849;
 }
 
 @media (max-width: 767px) {
@@ -903,7 +903,7 @@ figure {
   color: #fff;
   background-color: transparent;
   border-color: #e7c18a;
-  margin-bottom: 12px;
+  margin-bottom: 12.5px;
 }
 
 .section-impact .btn-default:hover, .section-impact .btn-default:focus, .section-impact .btn-default:not(:disabled):not(.disabled):active, .section-impact .btn-default:not(:disabled):not(.disabled).active, .section-impact .btn-default .show > .dropdown-toggle, .open > .dropdown-toggle .section-impact .btn-default, .card-impact .btn-default:hover, .card-impact .btn-default:focus, .card-impact .btn-default:not(:disabled):not(.disabled):active, .card-impact .btn-default:not(:disabled):not(.disabled).active, .card-impact .btn-default .show > .dropdown-toggle, .open > .dropdown-toggle .card-impact .btn-default {
@@ -1929,7 +1929,7 @@ a.text-white:not(.btn):hover {
 }
 
 .panel-overstated .panel-body a:not(.btn):hover, .panel-overstated .panel-body a:not(.btn):focus, .panel-overstated .card-body a:not(.btn):hover, .panel-overstated .card-body a:not(.btn):focus, .card-overstated .panel-body a:not(.btn):hover, .card-overstated .panel-body a:not(.btn):focus, .card-overstated .card-body a:not(.btn):hover, .card-overstated .card-body a:not(.btn):focus {
-  color: #000406;
+  color: #043849;
   text-decoration: underline;
 }
 
@@ -2120,7 +2120,7 @@ a.text-white:not(.btn):hover {
 }
 
 .panel-standout .panel-body a:not(.btn):hover, .panel-standout .panel-body a:not(.btn):focus, .panel-standout .card-body a:not(.btn):hover, .panel-standout .card-body a:not(.btn):focus, .card-standout .panel-body a:not(.btn):hover, .card-standout .panel-body a:not(.btn):focus, .card-standout .card-body a:not(.btn):hover, .card-standout .card-body a:not(.btn):focus {
-  color: #000406;
+  color: #043849;
   text-decoration: underline;
 }
 
@@ -2509,7 +2509,7 @@ a.text-white:not(.btn):hover {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary .show > .dropdown-toggle, .open > .dropdown-toggle .btn-secondary {
-  color: #000406;
+  color: #043849;
   background-color: #fff;
   border-color: #000;
 }
@@ -2725,7 +2725,7 @@ input[type="radio"]:checked + * i {
 body {
   font-family: "Public Sans", sans-serif;
   font-size: 1.125rem;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #000000;
 }
 
@@ -2742,19 +2742,19 @@ a {
 }
 
 a:hover {
-  color: #000406;
+  color: #043849;
 }
 
 .featured-narrative {
   border-bottom: 1px solid #d6d6d6;
   border-top: 1px solid #d6d6d6;
   padding: 10px 10px 0 10px;
-  margin-bottom: 12px;
+  margin-bottom: 12.5px;
   margin-left: 20px;
 }
 
 p {
-  margin-bottom: 0.7rem;
+  margin-bottom: 1.125rem;
 }
 
 .ie9 p + h1, .ie9 p + h2, .ie9 p + h3, .ie9 p + h4 {
@@ -2766,41 +2766,41 @@ h1 span[class^="ca-gov-icon-"]:first-child, .h1 span[class^="ca-gov-icon-"]:firs
 }
 
 h1, .h1 {
-  font-size: 40px;
-  font-size: 2.5rem;
+  font-size: 47px;
+  font-size: 2.9375rem;
   margin-top: 3rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2rem;
   font-family: "Public Sans", sans-serif;
 }
 
 h2, .h2 {
-  font-size: 32px;
-  font-size: 2rem;
-  margin-top: 2.75rem;
-  margin-bottom: 1.4rem;
+  font-size: 37px;
+  font-size: 2.3125rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   font-family: "Public Sans", sans-serif;
 }
 
 h3, .h3 {
-  font-size: 28px;
-  font-size: 1.75rem;
-  margin-top: 2.4rem;
-  margin-bottom: 1.2rem;
+  font-size: 29px;
+  font-size: 1.8125rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
   font-family: "Public Sans", sans-serif;
 }
 
 h4, .h4 {
-  font-size: 24px;
-  font-size: 1.5rem;
-  margin-top: 2rem;
+  font-size: 23px;
+  font-size: 1.4375rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
   font-family: "Public Sans", sans-serif;
 }
 
 h5, .h5 {
-  font-size: 20px;
-  font-size: 1.25rem;
-  margin-top: 1.7rem;
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-top: 1.4rem;
   margin-bottom: .8rem;
   font-family: "Public Sans", sans-serif;
 }
@@ -2808,23 +2808,23 @@ h5, .h5 {
 h6, .h6 {
   font-size: 16px;
   font-size: 1rem;
-  margin-top: 1.4rem;
+  margin-top: 1.2rem;
   margin-bottom: .6rem;
   font-family: "Public Sans", sans-serif;
 }
 
 @media (max-width: 767px) {
   h1, .h1 {
-    font-size: 32px;
-    font-size: 2rem;
+    font-size: 42px;
+    font-size: 2.625rem;
   }
   h2, .h2 {
-    font-size: 26px;
-    font-size: 1.625rem;
+    font-size: 33px;
+    font-size: 2.0625rem;
   }
   h3, .h3 {
-    font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 26px;
+    font-size: 1.625rem;
   }
   h4, .h4 {
     font-size: 20px;
@@ -2834,10 +2834,13 @@ h6, .h6 {
     font-size: 16px;
     font-size: 1rem;
   }
+  p {
+    margin-bottom: 1rem;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  line-height: 1.5;
+  line-height: 1.6;
   font-weight: 700;
 }
 
@@ -2930,6 +2933,10 @@ a.list-group-item {
   src: url("../fonts/OpenDyslexic-Regular.eot#iefix") format("embedded-opentype"), url("../fonts/OpenDyslexic-Regular.ttf") format("truetype"), url("../fonts/OpenDyslexic-Regular.woff") format("woff"), url("../fonts/OpenDyslexic-Regular.svg#OpenDyslexicAlta") format("svg");
   font-weight: normal;
   font-style: normal;
+}
+
+main ul li, main ol li {
+  margin-bottom: .5625rem;
 }
 
 /* -----------------------------------------
