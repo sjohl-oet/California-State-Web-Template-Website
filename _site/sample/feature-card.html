@@ -353,70 +353,112 @@ Options are: megadropdown dropdown singlelevel
 
 <div id="main-content" class="main-content">
 	<main class="main-primary" id="main">
-			<div class="container p-b-lg">
-		<main class="main-primary">
-			<nav aria-label="You are here">
-				<ol class="breadcrumb">
-					<li><a href="../index.html" title="Home page">Home</a></li>
-					<li><a href="/sample/" title="Content Modules landing page">Content Modules</a></li>
-					<li class="active">Featured card</li>
-				</ol>
-			</nav>
-			<div class="feature-card row d-flex">
-				<div
-						class="wp-block-ca-design-system-hero cagov-with-sidebar cagov-with-sidebar-left cagov-featured-section cagov-bkgrd-gry cagov-block wp-block-cagov-hero"
-					>
-						<div>
-							<div class="cagov-stack cagov-p-2 cagov-featured-sidebar">
-								<h1>California State Website Template</h1>
-								<div class="cagov-hero-body-content">
-									<p>
-										The California State Template is an open source web template and standard offered by the California Department of Technology to state agencies and departments within the State of California and beyond.
-									</p>
+		  <div class="container p-b-lg p-t-md">
+    <main class="main-primary">
+      <nav aria-label="You are here">
+        <ol class="breadcrumb">
+          <li><a href="../index.html" title="Home page">Home</a></li>
+          <li><a href="/sample/" title="Content Modules landing page">Content Modules</a></li>
+          <li class="active">Featured card</li>
+        </ol>
+      </nav>
+      <div class="feature-card row d-flex">
+        <div
+            class="wp-block-ca-design-system-hero cagov-with-sidebar cagov-with-sidebar-left cagov-featured-section cagov-bkgrd-gry cagov-block wp-block-cagov-hero"
+          >
+            <div>
+              <div class="cagov-stack cagov-p-2 cagov-featured-sidebar">
+                <h1>California State Website Template</h1>
+                <div class="cagov-hero-body-content">
+                  <p>
+                    The California State Template is an open source web template and standard offered by the California Department of Technology to state agencies and departments within the State of California and beyond.
+                  </p>
 
-									<div class="wp-block-button">
-										<a
-											class="wp-block-button__link"
-											href="#"
-											>Getting started</a
-										>
-									</div>
-								</div>
-							</div>
-							<div>
-								<img
-									class="cagov-featured-image"
-									src="/images/main-banner9.jpg"
-									alt=""
-									width="1024"
-									height="683"
-								/>
-							</div>
-						</div>
-					</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Featured card</h1>
-					<p>The header above is an example of the featured search bar. It's location and size make it a
-						prominent feature on this layout option. The <code>.featured-search</code> classes need to be added to
-						the <code>#head-search</code> div in the header of your page. It can be done by adding
-						<code>search: Featured</code> paramenter to your page Front matter data.
-					</p>
+                  <div class="wp-block-button">
+                    <a
+                      class="wp-block-button__link"
+                      href="#"
+                      >Getting started</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img
+                  class="cagov-featured-image"
+                  src="/images/main-banner9.jpg"
+                  alt=""
+                  width="1024"
+                  height="683"
+                />
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="row">
+        <div class="half">
+          <h1>Featured card</h1>
+          <p>The feature card highlights an action you want people to take or important information on the homepage. It is the first thing a visitor sees. It always includes:</p>
+          <ul>
+            <li>Title</li>
+            <li>Brief description</li>
+            <li>Image</li>
+            <li>An optional image caption</li>
+            <li>Button</li>
+          </ul>
+          <p>The feature card spans the full width of the screen on desktop and mobile. On mobile, the feature card will stack in this order:</p>
+          <ul>
+            <li>Image</li>
+            <li>Image caption</li>
+            <li>Title</li>
+            <li>Description</li>
+            <li>Button</li>
+          </ul>
+          
+        </div>
+        <div class="half">
+            <h2>Source Code:</h2>
+            <pre>
+              <code class="overflow-auto">
+<div
+  class="wp-block-ca-design-system-hero cagov-with-sidebar cagov-with-sidebar-left cagov-featured-section cagov-bkgrd-gry cagov-block wp-block-cagov-hero"
+>
+  <div>
+    <div class="cagov-stack cagov-p-2 cagov-featured-sidebar">
+      <h1>We’re making changes to better serve you</h1>
+      <div class="cagov-hero-body-content">
+        <p>
+          California has merged the three state cannabis authorities into
+          a&nbsp;single,&nbsp;new Department of Cannabis Control.
+        </p>
 
-					<p><span class="badge label-info">NOTE:</span> Featured search can be only used with
-						<code>navicons.njk</code>
-						or
-						<code>navicons-landing.njk</code> layouts, since <code>paga.njk</code>, <code>landing.njk</code> page
-						layout are already using featured search in their page header by default. See page template available
-						options by
-						viewing <a href="page-templates.html"> page
-							templates</a>.
-					</p>
-				</div>
-			</div>
-		</main>
-	</div>
+        <div class="wp-block-button">
+          <a
+            class="wp-block-button__link"
+            href="https://cannabis.ca.gov/about-us/consolidation/"
+          >
+            Learn more
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img
+        class="cagov-featured-image"
+        src="https://cannabis.ca.gov/wp-content/uploads/sites/2/2021/06/cannabis-buds-hero-1024x683.jpg"
+        alt=""
+        width="1024"
+        height="683"
+      />
+    </div>
+  </div>
+</div>            
+            </code>
+          </pre>
+        </div>
+      </div>
+    </main>
+  </div>
 </div>
 	</main>
 </div>
