@@ -2475,7 +2475,7 @@ a.text-white:not(.btn):hover {
 .btn-default:hover, .btn-default:focus, .btn-default:not(:disabled):not(.disabled):active, .btn-default:not(:disabled):not(.disabled).active,
 .btn-default .show > .dropdown-toggle, .open > .dropdown-toggle .btn-default {
   color: #000;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-color: #000;
 }
 .btn-default:not(:disabled):not(.disabled):active, .btn-default:not(:disabled):not(.disabled).active, .open > .dropdown-toggle .btn-default {
